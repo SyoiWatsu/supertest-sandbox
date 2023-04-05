@@ -4,7 +4,9 @@ on:
   push:
     branches:
       - main
+      - training
       - 'feat/**'
+
 jobs:
   test:
 
